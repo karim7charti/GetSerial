@@ -1,0 +1,56 @@
+#home{
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9px;
+
+}
+
+#home #wlc_img{
+    width: 100% !important;
+    margin-top: 4.2em !important;
+    border-radius: 0 0 12px 12px;
+
+}
+h1 span{
+    color: rgb(233,0,120) ;
+}
+#content{
+    line-height: 2rem;
+    margin-top: 500px;
+
+}
+#content p{
+    font-size: 1.1rem;
+    }
+#content>span{
+    font-size: 1.2rem;
+
+    color: rgb(233,0,120) ;
+
+}
+
+#prodcts_pr{
+    width: 23em;
+    height: 32em;
+}
+
+#slide{
+
+
+}
+#btn1{
+    background-color:  rgb(233,0,120);
+    color: white;
+
+}
+#btn1:hover{
+    background-color: #f754a8    !important;
+
+}
+@media screen and (max-width: 800px){
+    #content{
+        margin-top: -110px !important;
+    }
+
+}

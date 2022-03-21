@@ -1,0 +1,61 @@
+#login{
+    border-radius: 15px;
+
+}
+
+#login_btn_form:hover{
+    background-color: white;
+    color: rgb(233,0,120);
+}
+
+#login_btn_form{
+    background-color: rgb(233,0,120);
+    border: 1px solid rgb(233,0,120);
+    color: white;
+}
+
+
+#cancel_login{
+  background-color: gray;
+}
+#cancel_login:hover{
+    background-color: white;
+    color: rgb(233,0,120);
+    border: 1px solid rgb(233,0,120);
+}
+
+#login.icons{
+    height: 17px;
+    width: 17px;
+}
+#login input{
+    border-top: 0 ;
+    border-left: 0 ;
+    border-right: 0 ;
+    border-bottom: 1px solid rgb(233,0,120);
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    padding-right: 35px;
+}
+
+#login input:hover{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+#login #pass:hover{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+
+#login input:focus{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+#login #pass:focus{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}

@@ -1,0 +1,22 @@
+#spinning_page{
+    width: 100% !important;
+    height: 100vh !important;
+    background-color: rgba(0,0,0,0.4) !important;
+    position: fixed;
+    z-index: 1 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#spinning_page2{
+    width: 100% !important;
+    height: 100vh !important;
+    background-color: rgba(0,0,0,0.01) !important;
+    position: fixed;
+    z-index: 1 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

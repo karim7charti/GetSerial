@@ -1,0 +1,66 @@
+
+#buy_cart i{
+    font-size: 2.1em;
+    color: rgb(233,0,120);
+    cursor: pointer;
+}
+#buy_cart i:hover{
+    color: rgb(233,0,233) !important;
+}
+
+#buy_cart .bx-heart{
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+#cart{
+    text-align: right;
+}
+
+#products .prices{
+    text-decoration: line-through;
+    color: dimgray;
+}
+
+#products .btn{
+    background-color: rgb(233,0,120);
+    border-color: rgb(233,0,233);
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+#products .btn:hover{
+    background-color: rgb(233,0,233);
+}
+
+#product{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+
+}
+.card-img{
+    border: 0 !important;
+    border-radius: 7px;
+}
+
+#product:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+}
+#products{
+
+}
+
+@media screen and (max-width: 1200px){
+    .prices{
+        font-size: 13px;
+    }
+    .price_discounts{
+        font-size: 13px;
+    }
+
+}
+
+.card-body h5{
+   height: 2.1em;
+}

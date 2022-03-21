@@ -1,0 +1,157 @@
+
+#core{
+    background-image: url("../img/login_back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh !important;
+
+}
+#login{
+    height: auto;
+    font-family: Calibri;
+    width: auto;
+
+}
+#logo{
+    width: 150px;
+    height: 80px;
+    position: center;
+}
+h6{
+    color: dimgrey;
+    text-align: center;
+}
+#logo_col{
+    text-align: center !important;
+
+}
+#login .login_form{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+    border-radius: 7px;
+    background-color: white;
+    border-radius: 12px;
+}
+#login p{
+    text-align: center !important;
+    color: dimgrey;
+    font-size: 13px;
+}
+#basic-addon1{
+    background-color: white;
+    border-top: 0 ;
+    border-left: 0 ;
+    border-right: 0 ;
+    border-bottom: 1px solid rgb(233,0,120);
+}
+#login input{
+    border-top: 0 ;
+    border-left: 0 ;
+    border-right: 0 ;
+    border-bottom: 1px solid rgb(233,0,120);
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    padding-right: 35px;
+}
+
+#login input:hover{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+#login #pass:hover{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+
+#login input:focus{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+#login #pass:focus{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+#login i{
+    color: #585151;
+}
+
+#login .btn-close{
+    background-color: transparent;
+    background-image: url("../img/close.png");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    border: 0;
+}
+
+#btn_login{
+    background-color: rgb(233,0,120);
+    border-color: rgb(233,0,120);
+    border-radius: 25px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+
+}
+#btn_login:hover{
+    background-color: rgb(233,0,200);
+
+}
+
+#signup{
+    text-align: center;
+    font-size: 15px;
+    color: dimgrey;
+}
+
+#signup a{
+    font-family: Calibri;
+    color: rgb(233,0,120);
+    background: none;
+}
+#signup a:hover{
+
+    color: rgb(233,0,233);
+    text-decoration: none;
+
+}
+
+#present{
+    border-radius: 11px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 993px){
+    #present{
+        display: none;
+    }
+
+}
+
+
+
+#login .icons{
+    height: 17px;
+    width: 17px;
+}
+
+#basic-addon1{
+    border-radius: 0;
+    border: 1px;
+}
+
+#eye{
+    font-size: 1.5rem;
+    position: relative;
+    float: top;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+

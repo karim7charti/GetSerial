@@ -1,0 +1,37 @@
+/*footer*/
+
+#Contact{
+    height: auto;
+
+    overflow: hidden;
+
+    background-color: #ffd6eb;
+    line-height: 2rem;
+    color: black;
+}
+#Contact a img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#Contact #send{
+    background-color: rgb(233,0,120);
+    border-color: #ff389f;
+}
+
+#Contact #send:hover{
+    background-color: #f754a8    !important;
+}
+
+#Contact .logo_ft{
+    height: 120px;
+    width: 120px;
+}
+
+#Contact .hr{
+    border-top: 1px solid  rgb(233,0,120);
+
+
+}
+
+

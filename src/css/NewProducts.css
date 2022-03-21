@@ -1,0 +1,189 @@
+#newPr{
+    width: 3.85em !important;
+    height: 5.3em !important;
+    border-radius: 6px;
+}
+
+#addPr{
+
+    height: 95%;
+    width: 95%;
+}
+#addPr:hover{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+
+}
+#title{
+    margin-left: 10%;
+    text-align: left;
+    color: black;
+    font-size: 11px;
+}
+#addDiv{
+
+}
+
+.price{
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.price_discount{
+    text-decoration: line-through;
+    color: dimgray;
+    font-size: 12px;
+    text-align: left;
+}
+
+.price_detail{
+    text-align: left;
+}
+#pr{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+#pr:hover{
+    background-color: #ffd6eb;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+
+.Preview{
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.Soon{
+
+    color: dimgray;
+    font-size: 12px;
+    text-align: left;
+}
+
+#products_preview{
+    background-color: transparent;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px){
+    #title{
+        margin-left: 8%;
+    }
+
+
+}
+@media screen and (max-width: 1200px){
+
+    .price{
+        font-size: 10px;
+    }
+    .price_discount{
+        font-size: 10px;
+    }
+
+}
+
+
+#trend_image{
+    width: 300px;
+    height: 400px;
+}
+#trend_text{
+    background-color: rgb(233,0,120);
+    border-radius: 10% 66% 38% 0% / 0% 72% 44% 48% ;
+    align-items: center !important;
+    justify-content: center !important;
+    color: white;
+    height: 500px;
+}
+
+#trend_preview{
+
+    height: content-box;
+}
+
+
+#trend_preview .d-block{
+    height: 580px !important;
+    width: 97% !important;
+    border-radius: 9px;
+}
+
+#trend_preview .carousel-control-prev{
+    color: #ff389f;
+    border: 0;
+    background-color: transparent;
+    border-radius: 100% 0% 0% 100% / 49% 0% 0% 51% ;
+}
+#trend_preview .carousel-control-next{
+    color: #ff389f;
+    background-color: transparent;
+    border-radius: 0% 100% 100% 0% / 52% 52% 48% 48% ;
+    border: 0;
+}
+
+#trend_preview .carousel-caption{
+    width: border-box !important;
+    color: white;
+
+}
+
+.carousel-indicators button{
+    background-color: #575757 !important;
+}
+
+@media screen and (max-width : 991px){
+    #carouselExampleDark{
+        height: 400px !important;
+
+
+    }#trend_preview .d-block{
+         height: 400px !important;
+         width: 100% !important;
+
+     }
+}
+
+
+@media screen and (max-width : 770px){
+    #carouselExampleDark{
+        height: 330px !important;
+        width: 82% !important;
+
+    }#trend_preview .d-block{
+        height: 330px !important;
+        width: 100% !important;
+
+    }
+}
+
+@media screen and (max-width : 444px) {
+    #carouselExampleDark {
+        height: 275px !important;
+
+
+    }
+
+    #trend_preview .d-block {
+        height: 275px !important;
+        width: 100% !important;
+
+    }
+}
+
+#switch_btn i:hover{
+    color: rgba(233, 0, 120, 1) !important;
+    cursor: pointer;
+}
+
+
+
+
+
